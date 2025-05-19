@@ -179,6 +179,7 @@ exports.deleteEmployee = async (req, res) => {
 //     } = req.body;
 
 //     const files = req.files;
+//     console.log(files);
 
 //     const newEmployee = new Employee({
 //       firstName,
@@ -310,7 +311,7 @@ exports.deleteEmployee = async (req, res) => {
 //       };
 //     }
 
-//     // ✅ Passbook Image
+//     //  Passbook Image
 //     const passbook = await uploadFileFromRequest(files, "passbookImage");
 //     if (passbook) {
 //       employee.bankDetails.passbookImage = {
@@ -319,7 +320,7 @@ exports.deleteEmployee = async (req, res) => {
 //       };
 //     }
 
-//     // ✅ Bank Info
+//     //  Bank Info
 //     employee.bankDetails.accountNumber =
 //       accountNumber || employee.bankDetails.accountNumber;
 //     employee.bankDetails.ifscCode = ifscCode || employee.bankDetails.ifscCode;
@@ -336,7 +337,7 @@ exports.deleteEmployee = async (req, res) => {
 //   }
 // };
 
-// // ✅ DELETE Employee
+// // DELETE Employee
 // exports.deleteEmployee = async (req, res) => {
 //   try {
 //     const deleted = await Employee.findByIdAndDelete(req.params.id);

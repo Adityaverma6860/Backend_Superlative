@@ -46,6 +46,7 @@ const employeeSchema = new mongoose.Schema({
 
 module.exports = mongoose.model('Employee', employeeSchema);
 
+
 // Some Update
 
 
@@ -65,7 +66,7 @@ module.exports = mongoose.model('Employee', employeeSchema);
 //   data: { type: mongoose.Schema.Types.Mixed }
 // }, { _id: false });
 
-// // Main Employee Schema
+// // Main Employee Schema 
 // const employeeSchema = new mongoose.Schema({
 //   // Personal Information
 //   firstName: { type: String, required: true },
